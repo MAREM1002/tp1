@@ -1,0 +1,14 @@
+# Fichiers issus de la fabrication
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.dll
+*.so
+*.dylib
+
+# Répertoires de build
+/build/
+/bin/
+/out/
