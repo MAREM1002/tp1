@@ -6,7 +6,7 @@ RM = rm -f
 CXXFLAGS = -Wall -std=c++11
 LDFLAGS =
 $(info Fabrication du programme : $(TARGET))
-	all : $(TARGET)
+all : $(TARGET)
 $(TARGET): $(TARGET).o $(MODULE).o
 	$(LD) $@ $(LDFLAGS) $^
 $(TARGET).o: $(TARGET).cpp $(MODULE).h
